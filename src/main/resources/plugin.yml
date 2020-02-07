@@ -1,0 +1,16 @@
+name: SchemoMatic
+version: ${project.version}
+main: me.hashashin.schemomatic.SchemoMatic
+api-version: 1.15
+depend: [WorldEdit]
+authors: [hashashin]
+description: Simple schematics file browser with a stupid name.
+website: placeholder
+commands:
+  schemgui:
+    description: opens the schematics selection GUI
+    aliases: [schemomatic,sg]
+    permission: schemomatic.open
+    permission-message: You've no permission to use this command!
+    usage: /<command>
+    default: op
